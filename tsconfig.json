@@ -1,26 +1,24 @@
 {
-    "compilerOptions": {
-      "target": "ES6",
-      "module": "CommonJS",
-      "noImplicitAny": true,
-      "removeComments": true,
-      "preserveConstEnums": true,
-      "sourceMap": true,
-      "allowSyntheticDefaultImports": true,
-      "outDir": "build",
-      "lib": [
-        "ES2021.String"
-      ]
-    },
-    "files": [
-      "src/handlers/comms_handler.ts",
-      "src/handlers/configs_handler.ts",
-      "src/bots/presale_bot.ts",
-      "src/main/bot_initialization.ts",
-      "src/main/main.ts",
-      "src/language_pack/italian.ts",
-      "src/language_pack/english.ts",
-      "src/language_pack/selected_language.ts",
-      "src/logger/logger.ts"
-    ]
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "build",
+    "lib": ["ES2021.String"]
+  },
+  "files": [
+    "src/handlers/comms_handler.ts",
+    "src/handlers/configs_handler.ts",
+    "src/bots/presale_bot.ts",
+    "src/main/bot_initialization.ts",
+    "src/main/main.ts",
+    "src/language_pack/italian.ts",
+    "src/language_pack/english.ts",
+    "src/language_pack/selected_language.ts",
+    "src/logger/logger.ts"
+  ]
 }
